@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{28F78861-8D77-0F0A-A65E-CB6CA9C004CA}</ProjectGuid>
+    <ProjectGuid>{3E67E09C-607E-4734-5C19-ACC299CD816D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR</AssemblyName>
@@ -121,8 +121,8 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Fade.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportArc.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\IgnoreHovering.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Samples\Scripts\InteractableExample.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Overlay.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Samples\Scripts\InteractableExample.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Settings.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\CustomEvents.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_SphericalProjection.cs" />
@@ -509,9 +509,6 @@
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UWP.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
@@ -927,7 +924,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{4544E7A1-0853-B441-40E6-08E684CA4378}</Project>
+      <Project>{2A885BD8-0266-A398-3A8B-92316973F987}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
     </ProjectReference>
   </ItemGroup>
